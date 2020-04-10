@@ -1,0 +1,793 @@
+<!{% load static %}>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Huawei</title>
+        <link rel="icon" href="../../static/Images/card-logo.jpg">
+        <link rel="stylesheet" href = "../../static/CSS_Styles/bootstrap.min.css">
+        <link rel="stylesheet" href="../../static/CSS_Styles/bootstrap-select.min.css">
+        <link rel="stylesheet" href="../../static/CSS_Styles/bootstrap-table.min.css">
+        <link rel="stylesheet" href = "../../static/CSS_Styles/Huawei.css">
+        <style></style>
+        <script></script>
+    </head>
+    <body>
+	{%if request.user.is_authenticated%}
+        <!---------------------------------------------------Navigation Bar--------------------------------------------------->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><img src="../../static/Images/logo.png" width="200" height="50" class="d-inline-block align-top" alt="WE"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary_Search my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
+
+      <!---------------------------------------------------Navigation Bar--------------------------------------------------->
+
+      <!-------------------------------------------------------------------------------------------------------------------->
+
+<!---------------------------------------------------carousel--------------------------------------------------------->
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+
+      <!---------------------------------------------------carousel 1 I-Manager U2000--------------------------------------------------------->
+              <div class="carousel-item active container">
+                <div class="row">
+                    <div class="column">
+                        <h5 class="card-title color">I-Manager U2000</h5>
+                        <img src="../../static/Images/Rack.png" class="Rack">
+                        <img src="../../static/Images/Power_UPS.png" class="plus U2000_Power" style="height:60px; width:205px; top:-218px;left:-234px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-506px;left:294px;">Power</p>
+                        <img src="../../static/Images/Switch.png" class="plus U2000_Switch_Slave" style="height:60px; width:199px; top:-556px;left:68px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-572px;left:294px;">Switch1 Slave</p>
+                        <img src="../../static/Images/Switch.png" class="plus U2000_Switch_Master" style="height:60px; width:199px; top:-638px;left:68px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-654px;left:294px;">Switch2 Master</p>
+                        <img src="../../static/Images/Server.png" class="plus U2000_Server" style="height:83px; width:201px; top:-638px;left:68px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-668px;left:294px;">Server</p>
+
+                    </div>
+                    <div class="column">
+                        <div class="column2">
+                           <div class="U2000_Power_div hide"><span class="font">Power</span></div>
+                           <div class="U2000_Switch_Slave_div hide"><span class="font">Switch1 Slave</span></div>
+                           <div class="U2000_Switch_Master_div hide"><span class="font">Switch2 Master</span></div>
+                           <div class="U2000_Server_div hide"><span class="font">Server</span></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+    <!---------------------------------------------------carousel ATEA--------------------------------------------------------->
+              <div class="carousel-item container">
+                <div class="row">
+                    <div class="column">
+                        <h5 class="card-title color">ATEA</h5>
+                        <img src="../../static/Images/Rack.png" class="Rack">
+                        <img src="../../static/Images/Power_UPS.png" class="plus ATEA_Power" style="height:60px; width:205px; top:-218px;left:-234px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-506px;left:294px;">Power</p>
+                        <img src="../../static/Images/Switch.png" class="plus ATEA_SEC_GW3" style="height:60px; width:199px; top:-556px;left:68px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-572px;left:294px;">SEC GW3</p>
+                        <img src="../../static/Images/Switch.png" class="plus ATEA_SEC_GW2" style="height:60px; width:199px; top:-638px;left:68px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-654px;left:294px;">SEC GW2</p>
+                         <img src="../../static/Images/Switch.png" class="plus ATEA_SEC_GW1" style="height:60px; width:199px; top:-719px;left:68px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-735px;left:294px;">SEC GW1</p>
+
+                    </div>
+                    <div class="column">
+                        <div class="column2">
+                           <div class="ATEA_Power_div hide"><span class="font">Power</span></div>
+                           <div class="ATEA_SEC_GW3_div hide"><span class="font">SEC GW3</span></div>
+                           <div class="ATEA_SEC_GW2_div hide"><span class="font">SEC GW2</span></div>
+                           <div class="ATEA_SEC_GW1_div hide"><span class="font">SEC GW1</span></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+
+
+
+
+
+
+    <!---------------------------------------------------carousel Master 1--------------------------------------------------------->
+              <div class="carousel-item container">
+                <div class="row">
+                    <div class="column">
+                        <h5 class="card-title color">Master 1</h5>
+                        <img src="../../static/Images/Rack.png" class="Rack">
+                        <img src="../../static/Images/Power_UPS.png" class="plus Master1_Power1" style="height:60px; width:205px; top:-218px;left:-234px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-506px;left:294px;">Power 1</p>
+                        <img src="../../static/Images/Power_UPS.png" class="plus Master1_Power2" style="height:60px; width:205px; top:-558px;left:65px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-577px;left:294px;">Power 2</p>
+                        <img src="../../static/Images/Storage.png" class="plus Master1_Storage" style="height:60px; width:205px; top:-558px;left:65px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-577px;left:294px;">Storage</p>
+                        <img src="../../static/Images/Server.png" class="plus Master1_Server" style="height:81px; width:205px; top:-558px;left:65px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-590px;left:294px;">Server</p>
+                    </div>
+                    <div class="column">
+                        <div class="column2">
+                           <div class="Master1_Power1_div hide"><span class="font">Power 1</span></div>
+                           <div class="Master1_Power2_div hide"><span class="font">Power 2</span></div>
+                           <div class="Master1_Storage_div hide"><span class="font">Storage</span></div>
+                           <div class="Master1_Server_div hide"><span class="font">Server</span><br><br>
+
+                                 <!---------------------------------------------------Modal --------------------------------------------------------->
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#M-FLS3">
+                                    M-FLS3 <span class="badge badge-success">4</span>
+                                </button>
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="M-FLS3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">M-FLS3</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                  <!---------------------------------------------------Modal --------------------------------------------------------->
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#M-FLS4">
+                                    M-FLS4 <span class="badge badge-light">4</span>
+                                </button>
+
+                                 <!-- Central Modal Small -->
+                                <div class="modal" id="M-FLS4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">M-FLS4</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                      <!---------------------------------------------------Modal --------------------------------------------------------->
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#M-FLS6">
+                                    M-FLS6 <span class="badge badge-danger">4</span>
+                                </button><br><br>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="M-FLS6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">M-FLS6</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                      <!---------------------------------------------------Modal --------------------------------------------------------->
+
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#M-FLS8">
+                                    M-FLS8 <span class="badge badge-info">4</span>
+                                </button>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="M-FLS8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">M-FLS8</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                 <!---------------------------------------------------Modal --------------------------------------------------------->
+
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#M-FLS10">
+                                    M-FLS10 <span class="badge badge-info">4</span>
+                                </button>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="M-FLS10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">M-FLS10</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                 <!---------------------------------------------------Modal --------------------------------------------------------->
+
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#M-FLS11">
+                                    M-FLS11 <span class="badge badge-info">4</span>
+                                </button><br><br>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="M-FLS11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">M-FLS11</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                <!---------------------------------------------------Modal --------------------------------------------------------->
+
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#M-FLS12">
+                                    M-FLS12 <span class="badge badge-info">4</span>
+                                </button>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="M-FLS12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">M-FLS12</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                <!---------------------------------------------------Modal --------------------------------------------------------->
+
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#M-FLS14">
+                                    M-FLS14 <span class="badge badge-info">4</span>
+                                </button>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="M-FLS14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">M-FLS14</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                <!---------------------------------------------------Modal --------------------------------------------------------->
+
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#M-FLS15">
+                                    M-FLS15 <span class="badge badge-info">4</span>
+                                </button><br><br>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="M-FLS15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">M-FLS15</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                <!---------------------------------------------------Modal --------------------------------------------------------->
+
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#M-FLS16">
+                                    M-FLS16 <span class="badge badge-info">4</span>
+                                </button>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="M-FLS16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">M-FLS16</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                           </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+    <!---------------------------------------------------carousel Master 2--------------------------------------------------------->
+              <div class="carousel-item container">
+                <div class="row">
+                    <div class="column">
+                        <h5 class="card-title color">Master 2</h5>
+                        <img src="../../static/Images/Rack.png" class="Rack">
+                        <img src="../../static/Images/Power_UPS.png" class="plus Master2_Power1" style="height:60px; width:205px; top:-218px;left:-234px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-506px;left:294px;">Power 1</p>
+                        <img src="../../static/Images/Power_UPS.png" class="plus Master2_Power2" style="height:60px; width:205px; top:-558px;left:65px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-577px;left:294px;">Power 2</p>
+                        <img src="../../static/Images/Storage.png" class="plus Master2_Storage" style="height:60px; width:205px; top:-558px;left:65px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-577px;left:294px;">Storage</p>
+                    </div>
+                    <div class="column">
+                        <div class="column2">
+                           <div class="Master2_Power1_div hide"><span class="font">Power 1</span></div>
+                           <div class="Master2_Power2_div hide"><span class="font">Power 2</span></div>
+                           <div class="Master2_Storage_div hide"><span class="font">Storage</span></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+
+    <!---------------------------------------------------carousel Backup-U2000--------------------------------------------------------->
+         <div class="carousel-item container">
+                <div class="row">
+                    <div class="column">
+                        <h5 class="card-title color">Backup-U2000</h5>
+                        <img src="../../static/Images/Rack.png" class="Rack">
+                        <img src="../../static/Images/Power_UPS.png" class="plus Backup-U2000_Power1" style="height:60px; width:205px; top:-218px;left:-234px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-506px;left:294px;">Power 1</p>
+                        <img src="../../static/Images/Power_UPS.png" class="plus Backup-U2000_Power2" style="height:60px; width:205px; top:-558px;left:65px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-577px;left:294px;">Power 2</p>
+                        <img src="../../static/Images/Storage.png" class="plus Backup-U2000_Storage" style="height:60px; width:205px; top:-558px;left:65px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-577px;left:294px;">Storage</p>
+                        <img src="../../static/Images/Server.png" class="plus Backup-U2000_Server" style="height:81px; width:205px; top:-558px;left:65px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-590px;left:294px;">Server</p>
+                    </div>
+                    <div class="column">
+                        <div class="column2">
+                           <div class="Backup-U2000_Power1_div hide"><span class="font">Power 1</span></div>
+                           <div class="Backup-U2000_Power2_div hide"><span class="font">Power 2</span></div>
+                           <div class="Backup-U2000_Storage_div hide"><span class="font">Storage</span></div>
+                           <div class="Backup-U2000_Server_div hide"><span class="font">Server</span><br><br>
+
+                                 <!---------------------------------------------------Modal --------------------------------------------------------->
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#S-FLS1">
+                                    S-FLS1 <span class="badge badge-success">4</span>
+                                </button>
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="S-FLS1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">S-FLS1</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                  <!---------------------------------------------------Modal --------------------------------------------------------->
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#S-FLS3">
+                                    S-FLS3 <span class="badge badge-light">4</span>
+                                </button>
+
+                                 <!-- Central Modal Small -->
+                                <div class="modal" id="S-FLS3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">S-FLS3</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                      <!---------------------------------------------------Modal --------------------------------------------------------->
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#S-FLS4">
+                                    S-FLS4 <span class="badge badge-danger">4</span>
+                                </button><br><br>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="S-FLS4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">S-FLS4</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                      <!---------------------------------------------------Modal --------------------------------------------------------->
+
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#S-FLS10">
+                                    S-FLS110 <span class="badge badge-info">4</span>
+                                </button>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="S-FLS10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">S-FLS10</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                 <!---------------------------------------------------Modal --------------------------------------------------------->
+
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#S-FLS11">
+                                    S-FLS11 <span class="badge badge-info">4</span>
+                                </button>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="S-FLS11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">S-FLS11</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                           </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+    <!---------------------------------------------------carousel EXPANSION U2000--------------------------------------------------------->
+              <div class="carousel-item container">
+                <div class="row">
+                    <div class="column">
+                        <h5 class="card-title color">EXPANSION U2000</h5>
+                        <img src="../../static/Images/Rack.png" class="Rack">
+                        <img src="../../static/Images/Power_UPS.png" class="plus EXP-U2000_Power1" style="height:60px; width:205px; top:-218px;left:-234px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-506px;left:294px;">Power 1</p>
+                        <img src="../../static/Images/Power_UPS.png" class="plus EXP-U2000_Power2" style="height:60px; width:205px; top:-558px;left:65px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-577px;left:294px;">Power 2</p>
+                        <img src="../../static/Images/Storage.png" class="plus EXP-U2000_Storage" style="height:60px; width:205px; top:-558px;left:65px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-577px;left:294px;">Storage</p>
+                        <img src="../../static/Images/Server.png" class="plus EXP-U2000_Server" style="height:81px; width:205px; top:-558px;left:65px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-590px;left:294px;">Server</p>
+                    </div>
+                    <div class="column">
+                        <div class="column2">
+                           <div class="EXP-U2000_Power1_div hide"><span class="font">Power 1</span></div>
+                           <div class="EXP-U2000_Power2_div hide"><span class="font">Power 2</span></div>
+                           <div class="EXP-U2000_Storage_div hide"><span class="font">Storage</span></div>
+                           <div class="EXP-U2000_Server_div hide"><span class="font">Server</span></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+    <!---------------------------------------------------carousel NETECO--------------------------------------------------------->
+              <div class="carousel-item container">
+                <div class="row">
+                    <div class="column">
+                        <h5 class="card-title color">NETECO</h5>
+                        <img src="../../static/Images/Rack.png" class="Rack">
+                        <img src="../../static/Images/Power_UPS.png" class="plus NETECO_Power" style="height:60px; width:205px; top:-218px;left:-234px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-506px;left:294px;">Power</p>
+                        <img src="../../static/Images/Switch.png" class="plus NETECO_SWitch1" style="height:60px; width:199px; top:-556px;left:68px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-572px;left:294px;">Switch1</p>
+                        <img src="../../static/Images/Switch.png" class="plus NETECO_SWitch2" style="height:60px; width:199px; top:-638px;left:68px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-654px;left:294px;">Switch2</p>
+                        <img src="../../static/Images/Storage.png" class="plus NETECO_Backup_Neteco" style="height:83px; width:201px; top:-638px;left:68px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-668px;left:294px;">Backup Neteco</p>
+                        <img src="../../static/Images/Storage.png" class="plus NETECO_Main_Neteco" style="height:83px; width:201px; top:-638px;left:68px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-668px;left:294px;">Main Neteco</p>
+                    </div>
+                    <div class="column">
+                        <div class="column2">
+                           <div class="NETECO_Power_div hide"><span class="font">Power</span></div>
+                           <div class="NETECO_SWitch1_div hide"><span class="font">Switch1</span></div>
+                           <div class="NETECO_SWitch2_div hide"><span class="font">Switch2</span></div>
+                           <div class="NETECO_Backup_Neteco_div hide"><span class="font">Backup Neteco</span></div>
+                           <div class="NETECO_Main_Neteco_div hide"><span class="font">Main Neteco</span></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+
+      <!-----------------------------------------------carousel ATN-RTN--------------------------------------------------------->
+
+
+              <div class="carousel-item container">
+                <div class="row">
+                    <div class="column">
+                        <h5 class="card-title color">ATN-RTN</h5>
+                        <img src="../../static/Images/Rack.png" class="Rack">
+                        <img src="../../static/Images/Server.png" class="plus ATN-RTN_ATN_Server" style="height:76px; width:201px; top:-120px;left:-232px;">
+                        <p class="plus" style="height:100px; width:220px; top:-407px;left:294px;">ATN Server</p>
+                        <img src="../../static/Images/Server.png" class="plus ATN-RTN_RTN_Server" style="height:76px; width:201px; top:-409px;left:68px;">
+                        <p class="plus" style="height:100px; width:220px; top:-436px;left:294px;">RTN Server</p>
+                      </div>
+                    <div class="column">
+                        <div class="column2">
+                           <div class="ATN-RTN_ATN_Server_div hide"><span class="font">ATN Server</span></div>
+                           <div class="ATN-RTN_RTN_Server_div hide"><span class="font">RTN Server</span></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!---------------------------------------------------carousel Buttons ------------------------------------------->
+
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+     <!--------------------------------------------------------------------------------------------------------------->
+
+
+        <script src="../../static/JS_Scripts/jquery-3.4.1.min.js"></script>
+        <script src="../../static/JS_Scripts/popper.min.js"></script>
+        <script src="../../static/JS_Scripts/bootstrap.min.js"></script>
+        <script src="../../static/JS_Scripts/bootstrap-select.min.js"></script>
+        <script src="../../static/JS_Scripts/bootstrap-table.min.js"></script>
+        <script src="../../static/JS_Scripts/bootstrap-table-filter-control.min.js"></script>
+        <script src="../../static/JS_Scripts/Huawei.js"></script>
+	{%endif%}
+    </body>
+
+</html>

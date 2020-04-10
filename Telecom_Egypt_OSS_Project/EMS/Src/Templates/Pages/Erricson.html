@@ -1,0 +1,697 @@
+<!{% load static %}>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Erricson</title>
+        <link rel="icon" href="../../static/Images/card-logo.jpg">
+        <link rel="stylesheet" href = "../../static/CSS_Styles/bootstrap.min.css">
+        <link rel="stylesheet" href="../../static/CSS_Styles/bootstrap-select.min.css">
+        <link rel="stylesheet" href="../../static/CSS_Styles/bootstrap-table.min.css">
+        <link rel="stylesheet" href = "../../static/CSS_Styles/Erricson.css">
+        <style></style>
+        <script></script>
+    </head>
+    <body>
+	{%if request.user.is_authenticated%}
+        <!---------------------------------------------------Navigation Bar--------------------------------------------------->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><img src="../../static/Images/logo.png" width="200" height="50" class="d-inline-block align-top" alt="WE"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+			<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary_Search my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
+
+      <!---------------------------------------------------Navigation Bar--------------------------------------------------->
+
+      <!-------------------------------------------------------------------------------------------------------------------->
+
+<!---------------------------------------------------carousel--------------------------------------------------------->
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+
+      <!---------------------------------------------------carousel 1 ENM Rack 1--------------------------------------------------------->
+              <div class="carousel-item active container">
+                <div class="row">
+                    <div class="column">
+                        <h5 class="card-title color">ENM Rack 1</h5>
+                        <img src="../../static/Images/Rack.png" class="Rack">
+                        <img src="../../static/Images/Switch.png" class="plus ENM1_Switch1" style="height:44px; width:200px; top:-225px;left:-232px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-506px;left:294px;">TOR Switch 1</p>
+                        <img src="../../static/Images/Switch.png" class="plus ENM1_Switch2" style="height:44px; width:200px; top:-582px;left:68px;">
+                        <p class="plus" style="height:100px; width:220px; top:-590px;left:294px;">TOR Switch 2</p>
+                        <img src="../../static/Images/Power.png" class="plus ENM1_Power" style="height:58px; width:202px; top:-629px;left:68px;">
+                        <p class="plus" style="height:100px; width:220px; top:-642px;left:294px;">Power</p>
+                        <img src="../../static/Images/Device.png" class="plus ENM1_OMBS" style="height:62px; width:196px; top:-680px;left:68px;">
+                        <p class="plus" style="height:100px; width:220px; top:-695px;left:294px;">OMBS</p>
+                        <img src="../../static/Images/Device.png" class="plus ENM1_LMS-ENM" style="height:62px; width:196px; top:-727px;left:68px;">
+                        <p class="plus" style="height:100px; width:220px; top:-745px;left:294px;">LMS-ENM</p>
+                        <img src="../../static/Images/Device.png" class="plus ENM1_NAS-1" style="height:62px; width:196px; top:-797px;left:68px;">
+                        <p class="plus" style="height:100px; width:220px; top:-815px;left:294px;">NAS-1</p>
+                        <img src="../../static/Images/Server.png" class="plus ENM1_Server1" style="height:76px; width:201px; top:-846px;left:68px;">
+                        <p class="plus" style="height:100px; width:220px; top:-874px;left:294px;">Server1</p>
+                        <img src="../../static/Images/Server.png" class="plus ENM1_Server2" style="height:76px; width:201px; top:-930px;left:68px;">
+                        <p class="plus" style="height:100px; width:220px; top:-958px;left:294px;">Server2</p>
+                    </div>
+                    <div class="column">
+                        <div class="column2">
+                           <div class="ENM1_Switch1_div hide"><span class="font">Switch1</span></div>
+                           <div class="ENM1_Switch2_div hide"><span class="font">Switch2</span></div>
+                           <div class="ENM1_Power_div hide"><span class="font">Power</span></div>
+                           <div class="ENM1_OMBS_div hide"><span class="font">OMBS</span></div>
+                           <div class="ENM1_LMS-ENM_div hide"><span class="font">LMS-ENM</span></div>
+                           <div class="ENM1_NAS-1_div hide"><span class="font">NAS-1</span></div>
+                           <div class="ENM1_Server1_div hide"><span class="font">Server1</span><br><br>
+
+                                 <!---------------------------------------------------Modal --------------------------------------------------------->
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#DB-1">
+                                    DB-1 <span class="badge badge-success">4</span>
+                                </button>
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="DB-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">DB-1</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                  <!---------------------------------------------------Modal --------------------------------------------------------->
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#SVC-1">
+                                    SVC-1<span class="badge badge-light">4</span>
+                                </button>
+
+                                 <!-- Central Modal Small -->
+                                <div class="modal" id="SVC-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">SVC-1</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                      <!---------------------------------------------------Modal --------------------------------------------------------->
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#SVC-3">
+                                    SVC-3 <span class="badge badge-danger">4</span>
+                                </button><br><br>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="SVC-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">SVC-3</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                      <!---------------------------------------------------Modal --------------------------------------------------------->
+
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#SCP-1">
+                                    SCP-1 <span class="badge badge-info">4</span>
+                                </button>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="SCP-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">SCP-1</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+
+                           </div>
+                           <!---------------------------------->
+                           <!---------------------------------->
+                           <!---------------------------------->
+                           <!---------------------------------->
+                           <!---------------------------------->
+                           <!---------------------------------->
+                           <div class="ENM1_Server2_div hide"><span class="font">Server2</span><br><br>
+
+                                 <!---------------------------------------------------Modal --------------------------------------------------------->
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#EVT-1">
+                                    EVT-1 <span class="badge badge-success">4</span>
+                                </button>
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="EVT-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">EVT-1</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+
+                                       <!---------------------------------------------------Modal --------------------------------------------------------->
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#SCP-3">
+                                    SCP-3<span class="badge badge-light">4</span>
+                                </button>
+
+                                 <!-- Central Modal Small -->
+                                <div class="modal" id="SCP-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">SCP-3</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                      <!---------------------------------------------------Modal --------------------------------------------------------->
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#SVC-5">
+                                    SVC-5 <span class="badge badge-danger">4</span>
+                                </button><br><br>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="SVC-5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">SVC-5</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                      <!---------------------------------------------------Modal --------------------------------------------------------->
+
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#SVC-6">
+                                    SVC-6 <span class="badge badge-info">4</span>
+                                </button>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="SVC-6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">SVC-6</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                           </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+      <!-----------------------------------------------carousel 2 ENM Rack 2--------------------------------------------------------->
+
+
+              <div class="carousel-item container">
+                <div class="row">
+                    <div class="column">
+                        <h5 class="card-title color">ENM Rack 2</h5>
+                        <img src="../../static/Images/Rack.png" class="Rack">
+                        <img src="../../static/Images/Switch.png" class="plus ENM2_Switch1" style="height:44px; width:200px; top:-225px;left:-232px;"data-html="true">
+                        <p class="plus" style="height:100px; width:220px; top:-506px;left:294px;">TOR Switch 1</p>
+                        <img src="../../static/Images/Switch.png" class="plus ENM2_Switch2" style="height:44px; width:200px; top:-582px;left:68px;">
+                        <p class="plus" style="height:100px; width:220px; top:-590px;left:294px;">TOR Switch 2</p>
+                        <img src="../../static/Images/Power.png" class="plus ENM2_Power" style="height:58px; width:202px; top:-629px;left:68px;">
+                        <p class="plus" style="height:100px; width:220px; top:-642px;left:294px;">Power</p>
+                        <img src="../../static/Images/Device.png" class="plus ENM2_MWS-ENIQ" style="height:62px; width:196px; top:-680px;left:68px;">
+                        <p class="plus" style="height:100px; width:220px; top:-695px;left:294px;">MWS-ENIQ</p>
+                        <img src="../../static/Images/Device.png" class="plus ENM2_NAS-2" style="height:62px; width:201px; top:-727px;left:68px;">
+                        <p class="plus" style="height:100px; width:196px; top:-745px;left:294px;">NAS-2</p>
+                        <img src="../../static/Images/Server.png" class="plus ENM2_Server1" style="height:76px; width:201px; top:-771px;left:68px;">
+                        <p class="plus" style="height:100px; width:220px; top:-803px;left:294px;">Server1</p>
+                        <img src="../../static/Images/Server.png" class="plus ENM2_Server2" style="height:76px; width:201px; top:-831px;left:68px;">
+                        <p class="plus" style="height:100px; width:220px; top:-863px;left:294px;">Server2</p>
+                      </div>
+                    <div class="column">
+                        <div class="column2">
+                           <div class="ENM2_Switch1_div hide"><span class="font">Switch1</span></div>
+                           <div class="ENM2_Switch2_div hide"><span class="font">Switch2</span></div>
+                           <div class="ENM2_Power_div hide"><span class="font">Power</span></div>
+                           <div class="ENM2_MWS-ENIQ_div hide"><span class="font">MWS-ENIQ</span></div>
+                           <div class="ENM2_NAS-2_div hide"><span class="font">NAS-2</span></div>
+                           <div class="ENM2_Server1_div hide"><span class="font">Server1</span><br><br>
+
+                                 <!---------------------------------------------------Modal --------------------------------------------------------->
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#DB-2">
+                                    DB-2 <span class="badge badge-success">4</span>
+                                </button>
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="DB-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">DB-2</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                  <!---------------------------------------------------Modal --------------------------------------------------------->
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#SVC-2">
+                                    SVC-2<span class="badge badge-light">4</span>
+                                </button>
+
+                                 <!-- Central Modal Small -->
+                                <div class="modal" id="SVC-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">SVC-2</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                      <!---------------------------------------------------Modal --------------------------------------------------------->
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#SVC-4">
+                                    SVC-4 <span class="badge badge-danger">4</span>
+                                </button><br><br>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="SVC-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">SVC-4</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                      <!---------------------------------------------------Modal --------------------------------------------------------->
+
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#SCP-2">
+                                    SCP-2 <span class="badge badge-info">4</span>
+                                </button>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="SCP-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">SCP-2</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+
+                           </div>
+                           <!---------------------------------->
+                           <!---------------------------------->
+                           <!---------------------------------->
+                           <!---------------------------------->
+                           <!---------------------------------->
+                           <!---------------------------------->
+
+                           <div class="ENM2_Server2_div hide"><span class="font">Server2</span><br><br>
+
+                                 <!---------------------------------------------------Modal --------------------------------------------------------->
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#EVT-2">
+                                    EVT-2 <span class="badge badge-success">4</span>
+                                </button>
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="EVT-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">EVT-2</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                  <!---------------------------------------------------Modal --------------------------------------------------------->
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#ENIQ">
+                                    ENIQ<span class="badge badge-light">4</span>
+                                </button>
+
+                                 <!-- Central Modal Small -->
+                                <div class="modal" id="ENIQ" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">ENIQ</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                      <!---------------------------------------------------Modal --------------------------------------------------------->
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#BIS">
+                                    BIS <span class="badge badge-danger">4</span>
+                                </button><br><br>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="BIS" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">BIS</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+                                      <!---------------------------------------------------Modal --------------------------------------------------------->
+
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#WAS">
+                                    WAS <span class="badge badge-info">4</span>
+                                </button>
+
+                                <!-- Central Modal Small -->
+                                <div class="modal" id="WAS" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                  aria-hidden="true">
+
+                                  <!-- Change class .modal-sm to change the size of the modal -->
+                                  <div class="modal-fluid" role="document">
+
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title w-100" id="myModalLabel">WAS</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        ...<br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br><br>...<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Central Modal Small -->
+
+                           </div>
+                           <!---------------------------------->
+                           <!---------------------------------->
+                           <!---------------------------------->
+                           <!---------------------------------->
+                           <!---------------------------------->
+                           <!---------------------------------->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!---------------------------------------------------carousel Buttons ------------------------------------------->
+
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+     <!--------------------------------------------------------------------------------------------------------------->
+
+
+        <script src="../../static/JS_Scripts/jquery-3.4.1.min.js"></script>
+        <script src="../../static/JS_Scripts/popper.min.js"></script>
+        <script src="../../static/JS_Scripts/bootstrap.min.js"></script>
+        <script src="../../static/JS_Scripts/bootstrap-select.min.js"></script>
+        <script src="../../static/JS_Scripts/bootstrap-table.min.js"></script>
+        <script src="../../static/JS_Scripts/bootstrap-table-filter-control.min.js"></script>
+        <script src="../../static/JS_Scripts/Erricson.js"></script>
+	{%endif%}
+    </body>
+</html>

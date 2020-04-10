@@ -1,0 +1,90 @@
+.btn-outline-primary_Search {
+	background-color: #8C3995;
+}
+
+.container{
+    height: 645px;
+    width: 1076px;
+    margin-left: 230px; 
+}
+
+.Rack
+{
+    height: 560px;
+}
+
+.Content{
+    border-style: solid;
+}
+
+.holder {
+    position: relative;
+    display: block;
+}
+
+.plus{
+    position: relative;
+    margin-top: -25px;
+    margin-left: -25px;
+	color: #FFF;
+}
+
+.Netact_Switch1:hover,.Netact_Switch2:hover,.Netact_Power:hover,.Netact_Qowisio:hover,
+.Netact_Primary_Storage:hover,.Netact_Backup_Storage:hover,.Netact_Server:hover,
+.Netact_Server:hover,.NPM_Switch1:hover,.NPM_Switch2:hover,.NPM_Power:hover,
+.NPM_Mega_Plexer:hover,.NPM_Primary_Storage:hover,.NPM_Backup_Storage:hover,
+.NPM_Server:hover,.SAM_Switch1:hover,.SAM_Switch2:hover,.SAM_MW_NFM-P_AUX1:hover,
+.SAM_MW_NFM-P_APP1:hover,.SAM_MW_NFM-P_DB1:hover,.SAM_MW_NFM-P_AUX2:hover,
+.SAM_MW_NFM-P_APP2:hover,.SAM_MW_NFM-P_DB2:hover{              
+	cursor: pointer;
+}
+
+.Details
+{
+	border-style: solid;
+	position: relative;
+	top:-587px;
+	left: 646px;
+	height: 400px;
+	width: 20px;
+	
+}
+
+.row{
+	
+}
+
+.column2{
+	
+	height: 562px;
+	width: 574px;
+}
+
+.hide{
+	display: none;
+}
+
+.font{
+	font-size: 32px;
+	background-color: #8C3995;
+	color: #FFF;
+	border-radius:20px;
+	font-style: italic;
+}
+.card-title{
+	font-size: 32px;
+}
+
+.modal-fluid {
+    max-width: 1300px;
+    margin: 1.75rem auto;
+}
+
+body{
+    background-image: url('../../static/Images/bg.png');
+    background-repeat: no-repeat;
+}
+
+.color{
+	color: #FFF;
+}

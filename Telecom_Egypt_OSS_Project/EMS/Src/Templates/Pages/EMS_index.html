@@ -1,0 +1,184 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>EMS</title>
+        <link rel="icon" href="../../static/Images/card-logo.jpg">
+        <link rel="stylesheet" href = "../../static/CSS_Styles/bootstrap.min.css">
+        <link rel="stylesheet" href="../../static/CSS_Styles/bootstrap-select.min.css">
+        <link rel="stylesheet" href="../../static/CSS_Styles/bootstrap-table.min.css">
+        <link rel="stylesheet" href = "../../static/CSS_Styles/EMS index.css">
+        <style></style>
+        <script></script>
+    </head>
+    <body>
+	    {%if request.user.is_authenticated%}
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><img src="../../static/Images/logo.png" width="200" height="50" class="d-inline-block align-top" alt="WE"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary_Search my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <a href="Nokia/"><img class="card-img" src="../../static/Images/N.png" alt="Card image"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <a href="Erricson/"><img class="card-img" src="../../static/Images/Er.png" alt="Card image"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <a href="Huawei/"><img class="card-img" src="../../static/Images/H.png" alt="Card image"></a>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+        
+        
+        
+        <br><br>
+        <div class="container cont">
+            <br>
+            <!-----------SSH----------------------------->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Connect">
+                SSH
+               </button>       
+                <!-- Modal -->
+                <div class="modal fade" id="Connect" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Open Connection</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        <div class="modal-body">
+                        <!---------------->
+                            <label class="color">HostName</label>
+                            <input type="text" class="form-control color" id="Server_HostName" name="HostName">
+                            <label class="color">Username</label>
+                            <input type="text" class="form-control color" id="Server_username" name="username">
+                            <label class="color">Password</label>
+                            <input type="password" class="form-control color" id="Server_Password" name="Password"><br>
+                            <button class="btn btn-light" value="Connect" id="Connect" onclick="connection();">Connect</button>
+                            <!---------------->
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>  
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <!-----------SSH----------------------------->
+                <!-----------Nokia Configuration----------------------------->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Nokia_conf">
+                Nokia Nodes Configuration
+               </button>       
+                <!-- Modal -->
+                <div class="modal fade" id="Nokia_conf" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Nokia Nodes Configuration</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        <div class="modal-body">
+                        <!---------------->
+                            <button type="button" class="btn btn-primary">
+                                All Conf.
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                                Changed Conf.
+                            </button>
+                            <!---------------->
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <!-----------Nokia Configuration----------------------------->
+           
+               <!-----------Huawei Configuration----------------------------->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Huawei_conf">
+                Huawei Nodes Configuration
+               </button><br><br>   
+                <!-- Modal -->
+                <div class="modal fade" id="Huawei_conf" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Huawei Nodes Configuration</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        <div class="modal-body">
+                        <!---------------->
+                            <button type="button" class="btn btn-primary">
+                                All Conf.
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                                Changed Conf.
+                            </button>
+                            <!---------------->
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <!-----------Nokia Configuration----------------------------->
+           
+        </div>
+        <script src="../../static/JS_Scripts/jquery-3.4.1.min.js"></script>
+        <script src="../../static/JS_Scripts/bootstrap.min.js"></script>
+        <script src="../../static/JS_Scripts/bootstrap-select.min.js"></script>
+        <script src="../../static/JS_Scripts/bootstrap-table.min.js"></script>
+        <script src="../../static/JS_Scripts/bootstrap-table-filter-control.min.js"></script>
+        <script src="../../static/JS_Scripts/EMS index.js"></script>
+	{%endif%}
+    </body>
+</html>

@@ -1,0 +1,88 @@
+.btn-outline-primary_Search {
+	background-color: #8C3995;
+}
+
+.container{
+    height: 645px;
+    width: 1076px;
+    margin-left: 230px; 
+}
+
+.Rack
+{
+    height: 560px;
+}
+
+.Content{
+    border-style: solid;
+}
+
+.holder {
+    position: relative;
+    display: block;
+}
+
+.plus{
+    position: relative;
+    margin-top: -25px;
+    margin-left: -25px;
+	color:#FFF;
+}
+
+.ENM1_Switch1:hover,.ENM1_Switch2:hover,.ENM1_Power:hover,.ENM1_OMBS:hover,
+.ENM1_LMS-ENM:hover,.ENM1_NAS-1:hover,.ENM1_Server1:hover,
+.ENM1_Server2:hover,.ENM2_Switch1:hover,.ENM2_Switch2:hover,.ENM2_Power:hover,
+.ENM2_MWS-ENIQ:hover,.ENM2_NAS-2:hover,.ENM2_Server1:hover,
+.ENM2_Server2:hover{              
+	cursor: pointer;
+}
+
+.Details
+{
+	border-style: solid;
+	position: relative;
+	top:-587px;
+	left: 646px;
+	height: 400px;
+	width: 20px;
+	
+}
+
+.row{
+	
+}
+
+.column2{
+	
+	height: 562px;
+	width: 574px;
+}
+
+.hide{
+	display: none;
+}
+
+.font{
+	font-size: 32px;
+	background-color: #8C3995;
+	color: #FFF;
+	border-radius:20px;
+	font-style: italic;
+}
+.card-title{
+	font-size: 32px;
+}
+
+.modal-fluid {
+    max-width: 1300px;
+    margin: 1.75rem auto;
+}
+body{
+    background-image: url('../../static/Images/bg.png');
+    background-repeat: no-repeat;
+    
+}
+
+.color{
+	color:#FFF;
+}

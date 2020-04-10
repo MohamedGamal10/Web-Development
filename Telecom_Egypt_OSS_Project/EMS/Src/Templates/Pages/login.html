@@ -1,0 +1,50 @@
+<!{% load static %}>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="icon" href="../../static/Images/card-logo.jpg">
+        <link rel="stylesheet" href = "../../static/CSS_Styles/bootstrap.css">
+        <link rel="stylesheet" href = "../../static/CSS_Styles/bootstrap.min.css">
+        <link rel="stylesheet" href = "../../static/CSS_Styles/login.css">
+        <style></style>
+        <script></script>
+        </script>
+    </head>
+    <body>
+
+        <div class="container" id="container">
+            <div class="row justify-content-center" id="row">
+                <div class="align-self-center" id="row-data">
+                    <div class="row no-gutters">
+
+                      <div class="col-xl-4 col-lg-4 col-sm-4 col-md-4 col-4">
+                        <img src="../../static/Images/card-logo-1.png" class="card-img" alt="...">
+                      </div>
+
+                      <div class="col-xl-8 col-lg-8 col-sm-8 col-md-8 col-8">
+                        <div class="card-body" id="card-body">
+                          <h2 class="card-title" id="card-title">Login</h2>
+			  <form method="post" action="{%url 'log_backend'%}">
+				  {%csrf_token%}
+                            <label class="card-text" id="lable">Username</label>
+                            <input type="text" class="form-control " id="username" name="username">
+                            <label class="card-text" id="lable">Password</label>
+                            <input type="password" class="form-control" id="password" name="password">
+                            <div id="div-login" class=" row justify-content-center">
+                                <button class="btn btn-light" value="Login" id="login">Login</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../../static/JS_Scripts/jquery-3.4.1.min.js"></script>
+        <script src="../../static/JS_Scripts/bootstrap.min.js"></script>
+        <script src="../../static/JS_Scripts/login.js"></script>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+.btn-outline-primary_Search {
+	background-color: #8C3995;
+}
+
+body{
+    background-image: url('../../static/Images/bg.png');
+    background-repeat: no-repeat;
+    
+}
+
+.color{
+	color:#000;
+}
+
+.cont{
+	border: 1px solid #8C3995;
+    border-radius: 60px;
+    height: 100%;
+}

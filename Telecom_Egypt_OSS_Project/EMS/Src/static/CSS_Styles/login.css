@@ -1,0 +1,61 @@
+#container
+{
+    height: 100vh;
+}
+#row
+{
+    height: 100vh;
+}
+
+#row-data
+{
+    width: 100%;
+    
+}
+
+#card-title
+{
+    margin-bottom: 50px;
+    color: #FFF;
+}
+
+#lable
+{
+    font-weight: bold;
+    color: #FFF;
+}
+
+#username
+{
+    margin-bottom: 20px;
+}
+
+#password
+{
+    margin-bottom: 20px;
+}
+
+#card-body
+{
+    border: 1px solid #8C3995;
+    border-radius: 60px;
+    height: 100%;
+}
+
+#login
+{
+    width: 200px;
+    font-weight: bold;
+}
+
+.btn-light:hover
+{
+    color: #fff;
+    background-color: #8C3995;
+}
+
+body{
+    background-image: url('../../static/Images/bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

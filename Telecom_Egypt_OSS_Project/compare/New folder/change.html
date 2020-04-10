@@ -1,0 +1,86 @@
+<!{% load static %}>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Index</title>
+        <link rel="icon" href="../../static/Images/card-logo.jpg">
+        <link rel="stylesheet" href = "../../static/CSS_Styles/bootstrap.min.css">
+        <link rel="stylesheet" href="../../static/CSS_Styles/bootstrap-select.min.css">
+        <link rel="stylesheet" href="../../static/CSS_Styles/bootstrap-table.min.css">
+        <link rel="stylesheet" href = "../../static/CSS_Styles/change.css">
+        <style></style>
+        <script></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="../../static/Images/logo.png" width="200" height="50" class="d-inline-block align-top" alt="WE"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary_Search my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
+        <br>
+        <div>
+            <div id="toolbar">
+                    <button class="btn btn-dark">Export</button>
+            </div>
+
+            <table id="table" data-toggle="table" data-search="false" data-filter-control="true"  data-show-export="true" data-click-to-select="true" data-toolbar="#toolbar">
+                <thead>
+                    <tr>
+                        <th data-field="state" data-checkbox="true"></th>
+                        <th data-field="enb-Name" data-filter-control="input" data-sortable="true">enb Name</th>
+                        <th data-field="Changes" data-filter-control="input" data-sortable="true">Changes</th>
+                        <th data-field="Change-Date" data-filter-control="input" data-sortable="true">Change Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td class="bs-checkbox "><input data-index="11" name="btSelectItem" type="checkbox"></td>
+                        <td>Valentin</td>
+                        <td>01/10/2015</td>
+                        <td>01/10/2015</td>
+
+                    </tr>
+                     <tr>
+                    <td class="bs-checkbox "><input data-index="11" name="btSelectItem" type="checkbox"></td>
+                        <td>Valentin</td>
+                        <td>01/10/2015</td>
+                        <td>01/10/2015</td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <script src="../../static/JS_Scripts/jquery-3.4.1.min.js"></script>
+        <script src="../../static/JS_Scripts/bootstrap.min.js"></script>
+        <script src="../../static/JS_Scripts/bootstrap-select.min.js"></script>
+        <script src="../../static/JS_Scripts/bootstrap-table.min.js"></script>
+        <script src="../../static/JS_Scripts/bootstrap-table-filter-control.min.js"></script>
+        <script src="../../static/JS_Scripts/change.js"></script>
+    </body>
+</html>

@@ -1,0 +1,95 @@
+.btn-outline-primary_Search {
+	background-color: #8C3995;
+}
+
+.container{
+    height: 645px;
+    width: 1076px;
+    margin-left: 230px; 
+}
+
+.Rack
+{
+    height: 560px;
+}
+
+.Content{
+    border-style: solid;
+}
+
+.holder {
+    position: relative;
+    display: block;
+}
+
+.plus{
+    position: relative;
+    margin-top: -25px;
+    margin-left: -25px;
+	color:#FFF;
+}
+
+.U2000_Power:hover,.U2000_Switch_Slave:hover,.U2000_Switch_Master:hover,
+.U2000_Server:hover,.ATEA_Power:hover,.ATEA_SEC_GW3:hover,.ATEA_SEC_GW2:hover,
+.ATEA_SEC_GW1:hover,.Master1_Power1:hover,.Master1_Power2:hover,.Master1_Storage:hover,
+.Master1_Server:hover,.Master2_Power1:hover,.Master2_Power2:hover,.Master2_Storage:hover,
+.Backup-U2000_Power1:hover,.Backup-U2000_Power2:hover,.Backup-U2000_Storage:hover,
+.Backup-U2000_Server:hover,.EXP-U2000_Power1:hover,.EXP-U2000_Power2:hover,
+.EXP-U2000_Storage:hover,.EXP-U2000_Server:hover,.NETECO_Power:hover,.NETECO_SWitch1:hover,
+.NETECO_SWitch2:hover,.NETECO_Backup_Neteco:hover,.NETECO_Main_Neteco:hover,
+.ATN-RTN_ATN_Server:hover,.ATN-RTN_RTN_Server:hover
+{              
+	cursor: pointer;
+}
+
+
+.Details
+{
+	border-style: solid;
+	position: relative;
+	top:-587px;
+	left: 646px;
+	height: 400px;
+	width: 20px;
+	
+}
+
+.row{
+	
+}
+
+.column2{
+	
+	height: 562px;
+	width: 574px;
+}
+
+.hide{
+	display: none;
+}
+
+.font{
+	font-size: 32px;
+	background-color: #8C3995;
+	color: #FFF;
+	border-radius:20px;
+	font-style: italic;
+}
+.card-title{
+	font-size: 32px;
+}
+
+.modal-fluid {
+    max-width: 1300px;
+    margin: 1.75rem auto;
+}
+
+body{
+    background-image: url('../../static/Images/bg.png');
+    background-repeat: no-repeat;
+    
+}
+
+.color{
+	color:#FFF;
+}
