@@ -6,9 +6,14 @@
   #### 5- Apache as Server
   
   
+  
+  
 # Benefit of project 
  #### 1-	Detecting any change in Network nodes.
  #### 2-	Helping in troubleshooting of degradations of any network elements caused by change in configurations. 
+
+
+
 
 
 ![alt text](https://github.com/MohamedGamal10/Web-Development/blob/master/Telecom_Egypt_OSS_Project/Images/1.png)
