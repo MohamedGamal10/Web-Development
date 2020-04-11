@@ -3,7 +3,9 @@
   #### 2- CSS3
   #### 3- Javascript
   #### 4- Django as Backend
-  #### 5- Apache as Server
+  #### 5- Apache as Software Server
+  #### 6- Postgresql as Database
+  #### 7- Ubuntu as Server
   
   
   
