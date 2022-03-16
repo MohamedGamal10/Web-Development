@@ -1,0 +1,30 @@
+version: '3.9'
+services:
+    DB:
+        image: postgres
+        restart: always
+        environment: 
+          - POSTGRES_USER=postgres
+          - POSTGRES_PASSWORD=postgres
+        ports:
+          - '5432:5432'
+        volumes:
+          - ./BE/DB:/var/lib/postgresql/data
+
+    api:
+        build: ./BE/API
+        command: uvicorn src.main:app --reload --host 0.0.0.0 --port 8000
+        ports:
+          - 8000:8000
+        depends_on:
+          - DB
+        restart: always
+
+    ui:
+        build: ./FE
+        ports:
+          - '80:80'
+        depends_on:
+          - api
+          - DB
+        restart: always
