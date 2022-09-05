@@ -1,0 +1,9 @@
+.container-bg {
+	display: flex;
+	min-height: 92.2vh;
+	background-image: url("../../images/bg_3.jpg");
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
