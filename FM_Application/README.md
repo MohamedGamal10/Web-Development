@@ -1,11 +1,12 @@
-# Android-Application
- 
+# FM-Application
+
+ Application to store Power Consumtion , Site Security Index, Spare parts for all sites
+
 # Tools used in project
-  #### 1- Xamrain
-  #### 2- Microcharts
-  #### 3- DocumentFormat.OpenXml.Spreadsheet
-  #### 4- AWS RDS
-  #### 5- Postgresql
+  #### 1- Reactjs
+  #### 2- MongoDB
+  #### 3- python Fastapi
+  #### 4- Docker , Docker Compose
   
   
  
