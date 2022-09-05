@@ -1,0 +1,29 @@
+﻿@model Mazr3a.Models.Store
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<h3>المخازن</h3>
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Store_Name" class="control-label"></label>
+                <input asp-for="Store_Name" class="form-control" />
+                <span asp-validation-for="Store_Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <br />
+                <input type="submit" value="حفظ" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-primary">رجوع</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

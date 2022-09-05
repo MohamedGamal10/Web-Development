@@ -1,0 +1,101 @@
+﻿@model Mazr3a.Models.Daily
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h3>اليوميات</h3>
+
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+             <div class="form-group">
+                <label asp-for="Farm_Name" class="control-label"></label>
+                <select asp-for="Farm_Name" class="form-select" aria-label="Default select example" style="padding-right:10%" asp-items="new SelectList(ViewBag.Farm_Name)">
+                    <option selected>-----</option>
+                </select>
+                <span asp-validation-for="Farm_Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sector_ID" class="control-label"></label>
+                <select asp-for="Sector_ID" class="form-select" aria-label="Default select example" style="padding-right:10%" asp-items="new SelectList(ViewBag.Sector_ID)">
+                    <option selected>-----</option>
+                </select>
+                <span asp-validation-for="Sector_ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Activity_Name" class="control-label"></label>
+                <select asp-for="Activity_Name" class="form-select" aria-label="Default select example" style="padding-right:10%" asp-items="new SelectList(ViewBag.Activity_Name)">
+                    <option selected>-----</option>
+                </select>
+                <span asp-validation-for="Activity_Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Workers" class="control-label"></label>
+                <input asp-for="Workers" class="form-control" />
+                <span asp-validation-for="Workers" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Unit_Rate" class="control-label"></label>
+                <input asp-for="Unit_Rate" class="form-control" />
+                <span asp-validation-for="Unit_Rate" class="text-danger"></span>
+            </div>
+            <!--<div class="form-group">
+                <label asp-for="Workers_Rate" class="control-label"></label>
+                <input asp-for="Workers_Rate" class="form-control" />
+                <span asp-validation-for="Workers_Rate" class="text-danger"></span>
+            </div>-->
+            <div class="form-group">
+                <label asp-for="Material_Name" class="control-label"></label>
+                <select asp-for="Material_Name" class="form-select" aria-label="Default select example" style="padding-right:10%" asp-items="new SelectList(ViewBag.Material_Name)">
+                    <option selected>-----</option>
+                </select>
+                <span asp-validation-for="Material_Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantity" class="control-label"></label>
+                <input asp-for="Quantity" class="form-control" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Store_Name" class="control-label"></label>
+                <select asp-for="Store_Name" class="form-select" aria-label="Default select example" style="padding-right:10%" asp-items="new SelectList(ViewBag.Store_Name)">
+                    <option selected>-----</option>
+                </select>
+                <span asp-validation-for="Store_Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <!--<div class="form-group">
+                <label asp-for="Material_Total" class="control-label"></label>
+                <input asp-for="Material_Total" class="form-control" />
+                <span asp-validation-for="Material_Total" class="text-danger"></span>
+            </div>-->
+            <!--<div class="form-group">
+                <label asp-for="Total" class="control-label"></label>
+                <input asp-for="Total" class="form-control" />
+                <span asp-validation-for="Total" class="text-danger"></span>
+            </div>-->
+            <div class="form-group">
+                <br />
+                <input type="submit" value="حفظ" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-primary">رجوع</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

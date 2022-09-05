@@ -1,0 +1,72 @@
+﻿<br />
+<div style="border:1px solid black; padding:10px;">
+    <h6>اسم المزرعة: @ViewBag.mazr3a </h6>
+    <h6>رقم القطاع: @ViewBag.sector </h6>
+    <h6>اجمالي العمالة: @ViewBag.Total_Workers جنية</h6>
+    <h6>اجمالي المواد والاسمدة: @ViewBag.Total_Material جنية</h6>
+    <h6>النصيب من المصاريف المشتركة: @ViewBag.Shareds جنية</h6>
+    <h6>الاجمالي : @ViewBag.Total جنية </h6>
+</div>
+
+<br/>
+<div>
+    <h5>المصاريف المشتركة</h5>
+    <table class="table" style="border:1px solid black;">
+        <thead>
+           <tr>
+            <th>الاسم</th>
+            <th>المبلغ</th>
+            <th>اليوم</th>
+           </tr>
+        </thead>
+        <tbody>
+@foreach (var item in ViewBag.View_Shareds)
+        {
+           <tr>
+            <td>@item.Name</td>
+            <td>@item.Price</td>
+            <td>@item.Date.ToString("MM/dd/yyyy")</td>
+           </tr>
+    }
+        </tbody>
+    </table>
+</div>
+
+<br/>
+<h5>الانشطة</h5>
+<table class="table" style="border:1px solid black;">
+        <thead>
+           <tr>
+            <th>اليوم</th>
+            <th>اسم النشاط</th>
+            <th>عدد العمالة</th>
+            <th>اليومية</th>
+            <th>اجمالي اليومية</th>
+            <th>اسم المادة</th>
+            <th>الكمية</th>
+            <th>اسم المخزن</th>
+            <th>السعر</th>
+            <th>اجمالي المواد</th>
+            <th>الاجمالي</th>
+           </tr>
+        </thead>
+        <tbody>
+@foreach (var item in ViewBag.R)
+        {
+           <tr>
+            <td>@item.Date.ToString("MM/dd/yyyy")</td>
+            <td>@item.Activity_Name</td>
+            <td>@item.Workers</td>
+            <td>@item.Unit_Rate</td>
+            <td>@item.Workers_Rate</td>
+            <td>@item.Material_Name</td>
+            <td>@item.Quantity</td>
+            <td>@item.Store_Name</td>
+            <td>@item.Price</td>
+            <td>@item.Material_Total</td>
+            <td>@item.Total</td>
+           </tr>
+    }
+        </tbody>
+    </table>
+

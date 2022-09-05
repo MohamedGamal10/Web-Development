@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Mazr3a.Models.Sector>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h3>القطاعات</h3>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">اضافة جديد</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Farm_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sector_ID)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Farm_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sector_ID)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">تعديل</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">حذف</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

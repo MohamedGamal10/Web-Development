@@ -1,0 +1,352 @@
+﻿++Solution 'Mazr3a' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:Mazr3a.sln
+++Mazr3a
+i:{00000000-0000-0000-0000-000000000000}:Mazr3a
+++Connected Services 
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:>1571
+++Dependencies
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:>1570
+++Properties
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\properties\
+++wwwroot
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\
+++Controllers
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\controllers\
+++DailyController.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\controllers\dailycontroller.cs
+++HomeController.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\controllers\homecontroller.cs
+++ItemController.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\controllers\itemcontroller.cs
+++MaterialController.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\controllers\materialcontroller.cs
+++ReportController.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\controllers\reportcontroller.cs
+++SectorController.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\controllers\sectorcontroller.cs
+++SharedsController.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\controllers\sharedscontroller.cs
+++StockController.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\controllers\stockcontroller.cs
+++StoreController.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\controllers\storecontroller.cs
+++Data
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\data\
+++Migrations
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\migrations\
+++Models
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\models\
+++Views
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\
+++Daily
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\daily\
+++Create.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\daily\create.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\item\create.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\material\create.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\sector\create.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\shareds\create.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\stock\create.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\store\create.cshtml
+++Delete.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\daily\delete.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\item\delete.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\material\delete.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\sector\delete.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\shareds\delete.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\stock\delete.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\store\delete.cshtml
+++Details.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\daily\details.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\item\details.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\material\details.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\sector\details.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\shareds\details.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\stock\details.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\store\details.cshtml
+++Edit.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\daily\edit.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\item\edit.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\material\edit.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\sector\edit.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\shareds\edit.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\stock\edit.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\store\edit.cshtml
+++Index.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\daily\index.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\home\index.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\item\index.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\material\index.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\sector\index.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\shareds\index.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\stock\index.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\store\index.cshtml
+++Home
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\home\
+++Item
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\item\
+++Material
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\material\
+++Report
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\report\
+++Report.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\report\report.cshtml
+++Sector
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\sector\
+++Shared
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\shared\
+++_Layout.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\shared\error.cshtml
+++Shareds
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\shareds\
+++Stock
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\stock\
+++Store
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\store\
+++_ViewImports.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\_viewstart.cshtml
+++appsettings.json
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\appsettings.json
+++Program.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\program.cs
+++No service dependencies discovered
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:>1572
+++Analyzers
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:analyzers
+++Frameworks
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:frameworks
+++Packages
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:packages
+++launchSettings.json
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\properties\launchsettings.json
+++css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\css\
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\js\
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\
+++bg1.jpg
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\bg1.jpg
+++favicon.ico
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\favicon.ico
+++ApplicationDbContext.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\data\applicationdbcontext.cs
+++20220326114807_AddDatabase.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\migrations\20220326114807_adddatabase.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\migrations\applicationdbcontextmodelsnapshot.cs
+++Daily.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\models\daily.cs
+++ErrorViewModel.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\models\errorviewmodel.cs
+++Item.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\models\item.cs
+++Material.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\models\material.cs
+++Sector.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\models\sector.cs
+++Shared.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\models\shared.cs
+++Stock.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\models\stock.cs
+++Store.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\models\store.cs
+++Privacy.cshtml
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\home\privacy.cshtml
+++_Layout.cshtml.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\views\shared\_layout.cshtml.css
+++appsettings.Development.json
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\appsettings.development.json
+++MessagePackAnalyzer
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.3\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\microsoft.netcore.app
+++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (6.0.3)
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:>1583
+++Microsoft.EntityFrameworkCore (6.0.3)
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:>1584
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:>1585
+++Microsoft.EntityFrameworkCore.Tools (6.0.2)
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:>1587
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.2)
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:>1588
+++Npgsql.EntityFrameworkCore.PostgreSQL (6.0.3)
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:>1586
+++ReflectionIT.Mvc.Paging (6.0.1)
+++bootstrap1.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\css\bootstrap1.css
+++site.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\css\site.css
+++site.js
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\js\site.js
+++bootstrap
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\
+++jquery
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\jquery\
+++jquery-validation
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\jquery-validation-unobtrusive\
+++20220326114807_AddDatabase.Designer.cs
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\migrations\20220326114807_adddatabase.designer.cs
+++dist
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\jquery\dist\
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\jquery\license.txt
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++jquery.js
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{c0b3ce72-fe5b-422f-a1e2-ea76d9af30a7}:c:\users\mohamed gamal\desktop\mazr3a\fe\mazr3a\mazr3a\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++PaginatedList.cs
+++PagedResultBase.cs
+++PagedResult.cs
+++X.PagedList.Mvc.Core (8.1.0)
+++X.PagedList.Mvc (8.0.7)

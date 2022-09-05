@@ -1,0 +1,62 @@
+﻿<br />
+<div style="border:1px solid black; padding:10px;">
+    <h6>اسم المخزن: @ViewBag.store </h6>
+    <h6>اسم المادة: @ViewBag.material </h6>
+    <h6>اجمالي الدخول: @ViewBag.material_total_Stocks </h6>
+    <h6>اجمالي الخروج: @ViewBag.material_total_daily </h6>
+    <h6>الباقي: @ViewBag.material_total_Quantity </h6>
+</div>
+
+<br/>
+<div>
+    <h5>عمليات الدخول</h5>
+    <table class="table" style="border:1px solid black;">
+        <thead>
+           <tr>
+            <th>اسم المخزن</th>
+            <th>المادة</th>
+            <th>الكمية</th>
+            <th>اليوم</th>
+           </tr>
+        </thead>
+        <tbody>
+@foreach (var item in ViewBag.material_total_Stocks_view)
+        {
+           <tr>
+            <td>@item.Store_Name</td>
+            <td>@item.Material_Name</td>
+            <td>@item.Quantity</td>
+            <td>@item.Date.ToString("MM/dd/yyyy")</td>
+           </tr>
+    }
+        </tbody>
+    </table>
+</div>
+
+<br/>
+<div>
+    <h5>عمليات الخروج</h5>
+    <table class="table" style="border:1px solid black;">
+        <thead>
+           <tr>
+            <th>اسم المزرعة</th>
+            <th>رقم القطاع</th>
+            <th>اسم المادة</th>
+            <th>الكمية</th>
+            <th>اليوم</th>
+           </tr>
+        </thead>
+        <tbody>
+@foreach (var item in ViewBag.material_total_daily_view)
+        {
+           <tr>
+            <td>@item.Farm_Name</td>
+            <td>@item.Sector_ID</td>
+            <td>@item.Material_Name</td>
+            <td>@item.Quantity</td>
+            <td>@item.Date.ToString("MM/dd/yyyy")</td>
+           </tr>
+    }
+        </tbody>
+    </table>
+</div>

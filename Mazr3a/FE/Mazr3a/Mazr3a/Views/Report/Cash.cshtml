@@ -1,0 +1,22 @@
+﻿
+<h3>التقارير</h3>
+<br />
+<div class="row">
+    <div class="col">
+        <form asp-action="Cash_Report" method="get" >
+                <div class="form-group" style="display:flex;">
+                <label class="form-label m-1">من</label>
+                <input class="form-control m-1" placeholder="من" style="margin:1%;" name="from" type="date"/>
+                <label class="form-label m-1">الي</label>
+                <input class="form-control m-1" placeholder="الي" style="margin:1%;" name="to" type="date"/>
+                <input type="submit" value="بحث" class="btn btn-primary m-2" />
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

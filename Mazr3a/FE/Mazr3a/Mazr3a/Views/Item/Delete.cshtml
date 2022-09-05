@@ -1,0 +1,24 @@
+﻿@model Mazr3a.Models.Item
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h3>الانشطة</h3>
+<div>
+    <br />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Activity_Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Activity_Name)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="حذف" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-primary">رجوع</a>
+    </form>
+</div>

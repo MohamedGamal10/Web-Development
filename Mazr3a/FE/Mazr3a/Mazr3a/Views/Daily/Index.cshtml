@@ -1,0 +1,138 @@
+﻿@model PaginatedList<Mazr3a.Models.Daily>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h3>اليوميات</h3>
+<br />
+<p>
+    <a asp-action="Create" class="btn btn-primary">اضافة جديد</a>
+</p>
+<!-- paging control for navigation to the previous page, next page, etc -->
+
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<a asp-action="Index"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   asp-route-pageNumber="@(Model.PageIndex - 1)"
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   class="btn btn-info @prevDisabled">
+    السابق
+</a>
+<a asp-action="Index"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   asp-route-pageNumber="@(Model.PageIndex + 1)"
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   class="btn btn-info @nextDisabled">
+    التالي
+</a>
+<a asp-action="Index"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   asp-route-pageNumber="@(Model.TotalPages)"
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   class="btn btn-info @nextDisabled">
+    الاخير
+</a>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Farm_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Sector_ID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Activity_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Workers)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Unit_Rate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Workers_Rate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Material_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Store_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Material_Total)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Total)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+            
+            <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Farm_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sector_ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Activity_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Workers)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Unit_Rate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Workers_Rate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Material_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Store_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Material_Total)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Total)
+            </td>
+            <td>
+                
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary" style="margin-bottom:10px">تعديل</a>
+                <br/>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger p-3">حذف</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
