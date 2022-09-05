@@ -1,0 +1,15 @@
+.wid{
+    width: 290px;
+    height: 207px;
+}
+.bg-primary{
+    background-color: #150485 !important;
+}
+
+.bg-danger{
+    background-color: #9A0680 !important;
+}
+
+.bg-info{
+    background-color: #543864 !important;
+}

@@ -1,0 +1,30 @@
+.marginleft{
+    margin-left: 90% !important;
+    margin-top: 1% !important; 
+    margin-bottom: 1% !important;
+    font-size: larger;
+    text-align: left;
+    width: 95px;
+    
+}
+
+.marginmap{
+    margin-left: 6%;
+    margin-top: 5%;
+    width: 25%;
+}
+
+.mleft{
+    margin-left: 75%;
+}
+
+.my-modal {
+    max-width: 1200px  !important   /* Occupy the 90% of the screen width */
+
+}
+.h{
+    height: 1000px !important;
+}
+.table{
+    table-layout: fixed;
+}

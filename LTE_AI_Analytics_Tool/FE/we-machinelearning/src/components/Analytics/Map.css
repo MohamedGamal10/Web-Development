@@ -1,0 +1,16 @@
+.leaflet-container{
+    width: 1140px; 
+    height: 600px;
+    box-shadow: 15px 20px 15px gray;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.SiteMapStyleall{
+    width: 900px ; 
+    height: 600px;
+    box-shadow: 15px 20px 15px gray;
+    margin-bottom: 30px;
+    margin-top: 8px;
+    margin-right: 30px;
+}
